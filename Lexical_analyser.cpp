@@ -41,6 +41,7 @@ int main()
     	lineNumber++;
     	while(line.size()>0){
     	    	if(line[0] == ' '){ line.erase(0, 1); }
+    	    	
 		first = line[0];  // take first character of string
     	next = line[1];   // take next character of string
 
@@ -86,9 +87,11 @@ if (first > 47 && first < 58 ){
  		first = line[0];  // take first character of string
     	next = line[1];   // take next character of string
  }
+ else
+ {
+ 	   line.erase(0 , 1); // erase string from 0 to 1 //to remove the first character	
+ }
 //==========Opeartor==========//
- 
-   line.erase(0 , 1); // erase string from 0 to 1 //to remove the first character	
 }		
 
     }		
