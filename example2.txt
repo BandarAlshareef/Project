@@ -1,0 +1,16 @@
+TestProgram {
+Void func1(int var1) {
+int Locvar1
+var1=5
+Locvar1:=6
+int result
+result := 7+8
+cout<< result
+if 4+2 == 3*2 then {
+cout<<”good”
+}
+}
+Void func2(int var2) {
+cout<< 4
+}
+}
